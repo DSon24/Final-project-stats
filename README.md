@@ -14,7 +14,7 @@ This project analyzes 350 customer records to study two questions: which custome
 
 Source: [E-commerce Customer Behavior Dataset on Kaggle](https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset). The analysis uses the CSV named `E-commerce Customer Behavior - Sheet1.csv`. Keep the original column names, including their spaces.
 
-Place the file at:
+The CSV is included at:
 
 ```text
 E-commerce Customer Behavior - Sheet1.csv
@@ -38,7 +38,7 @@ The presentation reports underdispersion and VIF values above 10 for total spend
 
 ## Run locally
 
-1. Download the dataset from the source above and put the CSV in the repository root, beside the R script.
+1. Download or clone this repository. The CSV is already included beside the R script.
 2. In R, install the packages used by the script:
 
    ```r
