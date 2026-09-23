@@ -8,7 +8,7 @@
 
 
 library(readr)
-ecom <- read_csv("C:/Users/songu/Downloads/archive/E-commerce Customer Behavior - Sheet1.csv")
+ecom <- read_csv("data/E-commerce Customer Behavior - Sheet1.csv")
 View(ecom)
 
 # Convert Discount Applied to numeric (TRUE=1, FALSE=0)
