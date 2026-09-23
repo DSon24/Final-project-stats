@@ -10,8 +10,6 @@ This project analyzes 350 customer records to study two questions: which custome
 - **Model two outcomes:** Fit a logistic regression for `Discount Applied` and a Poisson regression for `Items Purchased`. In the course analysis, purchase recency was associated with discount use (reported p = 0.019).
 - **Check the models:** Examine odds and rate ratios, likelihood-ratio and goodness-of-fit tests, the confusion matrix and ROC/AUC, dispersion, variance inflation factors (VIF), and Pearson residuals.
 
-These points correspond to the three project bullets on my resume.
-
 ## Data
 
 Source: [E-commerce Customer Behavior Dataset on Kaggle](https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset). The analysis uses the CSV named `E-commerce Customer Behavior - Sheet1.csv`. Keep the original column names, including their spaces.
@@ -19,7 +17,7 @@ Source: [E-commerce Customer Behavior Dataset on Kaggle](https://www.kaggle.com/
 Place the file at:
 
 ```text
-data/E-commerce Customer Behavior - Sheet1.csv
+E-commerce Customer Behavior - Sheet1.csv
 ```
 
 The script reads that relative path, so run it with the repository folder as the working directory. The data include `Age`, `Total Spend`, `Items Purchased`, `Average Rating`, `Discount Applied`, and `Days Since Last Purchase`.
@@ -40,7 +38,7 @@ The presentation reports underdispersion and VIF values above 10 for total spend
 
 ## Run locally
 
-1. Download the dataset from the source above and put the CSV at the stated `data/` path.
+1. Download the dataset from the source above and put the CSV in the repository root, beside the R script.
 2. In R, install the packages used by the script:
 
    ```r
